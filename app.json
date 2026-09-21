@@ -27,25 +27,8 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      [
-        "expo-sqlite",
-        {
-          "enableFTS": false
-        }
-      ],
-      "expo-font",
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/icon.png",
-          "color": "#10b981",
-          "sounds": []
-        }
-      ]
-    ],
+    "plugins": [],
     "splash": {
-      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#0c0a09"
     }
